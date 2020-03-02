@@ -1,0 +1,12 @@
+const ages = [12,17,12,11,13];
+const ages2 = [32,22,11,14];
+const ages3 = [2,1,35,5,25];
+const allAges = ages.concat (ages2).concat (ages3);
+const allAges2 = [...ages, ...ages2, 5, ...ages3];
+// console.log(allAges2);
+const sochib = 550;
+const min =850;
+const montrim=770;
+const takapoisa=[550,850,770];
+const maximum =Math.net (...takapoisa);
+console.log(maximum);
